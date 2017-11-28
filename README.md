@@ -1,11 +1,10 @@
 # Apache Kafka Producer Application
 
-## Prequisites
-- Kafka 2.12-1.0.0
-- Scala 2.12.4
-- Jdk 1.8
+## Table of Contents
+  * [Run Zookeeper](#Run Zookeeper)
 
-### Run `Zookeeper`
+
+## Run `Zookeeper`
 ```sh
 $ cd kafka_2.12-1.0.0
 
@@ -13,7 +12,7 @@ $ .\bin\windows\zookeeper-server-start.bat config\zookeeper.properties
 
 ```
 
-### Run three instances of `Broker`
+## Run three instances of `Broker`
 
 Copy `server.properties` from `config` directory and make three copies of it and rename to `server2.properties` and `server3.properties` 
 
@@ -48,3 +47,8 @@ $ .\bin\windows\kafka-console-consumer.bat --zookeeper localhost:2181 --topic my
 $ mvn clean install
 $ mvn exec:java
 ```
+
+## Prequisites
+- Kafka 2.12-1.0.0
+- Scala 2.12.4
+- Jdk 1.8

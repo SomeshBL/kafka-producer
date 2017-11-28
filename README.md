@@ -58,3 +58,4 @@ $ mvn exec:java
 - Kafka 2.12-1.0.0
 - Scala 2.12.4
 - Jdk 1.8
+- Maven 3.x

@@ -1,10 +1,10 @@
 # Apache Kafka Producer Application
 
 ## Table of Contents
-  * [Run Zookeeper](#Run Zookeeper)
+   * [Run Zookeeper](#Run Zookeeper)
 
 
-## Run `Zookeeper`
+## Run Zookeeper
 ```sh
 $ cd kafka_2.12-1.0.0
 

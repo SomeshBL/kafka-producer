@@ -4,7 +4,7 @@
 
   * [Run Zookeeper](#Run-Zookeeper)
   * [Run three instances of Broker](#run-three-instances-of-Broker)
-   
+  * [Prequisites](#prequisites)
 
 
 ## Run Zookeeper

@@ -1,7 +1,9 @@
 # Apache Kafka Producer Application
 
 ## Table of Contents
-   * [Run Zookeeper](#Run Zookeeper)
+
+  * [Run Zookeeper](#Run-Zookeeper)
+   
 
 
 ## Run Zookeeper
@@ -12,7 +14,7 @@ $ .\bin\windows\zookeeper-server-start.bat config\zookeeper.properties
 
 ```
 
-## Run three instances of `Broker`
+## Run three instances of Broker
 
 Copy `server.properties` from `config` directory and make three copies of it and rename to `server2.properties` and `server3.properties` 
 

@@ -2,8 +2,8 @@
 
 ## Table of Contents
 
-  * [Run Zookeeper](#Run-Zookeeper)
-  * [Run three instances of Broker](#run-three-instances-of-Broker)
+  * [Run Zookeeper](#run-zookeeper)
+  * [Run three instances of Broker](#run-three-instances-of-broker)
   * [Prequisites](#prequisites)
 
 

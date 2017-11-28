@@ -4,6 +4,9 @@
 
   * [Run Zookeeper](#run-zookeeper)
   * [Run three instances of Broker](#run-three-instances-of-broker)
+  * [Create Topic with three partitions and three replicas](#create-topic-with-three-partitions-and-three-replicas)
+  * [Start Consumer](#start-consumer)
+  * [Run Producer](#run-producer)
   * [Prequisites](#prequisites)
 
 
@@ -30,7 +33,7 @@ $ .\bin\windows\kafka-server-start.bat config\server3.properties
 
 ```
 
-### Create `Topic` with three partitions and three replicas
+## Create `Topic` with three partitions and three replicas
 ```sh
 $ cd kafka_2.12-1.0.0
 
@@ -38,14 +41,14 @@ $ .\bin\windows\kafka-topics.bat --create --topic my-topic --zookeeper localhost
 
 ```
 
-### Start `Consumer`
+## Start `Consumer`
 ```sh
 $ cd kafka_2.12-1.0.0
 
 $ .\bin\windows\kafka-console-consumer.bat --zookeeper localhost:2181 --topic my-topic --from-beginning
 ```
 
-### Run `Producer` 
+## Run `Producer` 
 ```sh
 $ mvn clean install
 $ mvn exec:java
